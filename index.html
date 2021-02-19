@@ -29,7 +29,7 @@
 
 
 
-    <title>GUApp - Concorsi Pubblici</title>
+    <title>Concorsi Pubblici</title>
     <meta name="description" content="Motore di ricerca per Concorsi Pubblici" />
 
     <!-- Open Graph tags -->
@@ -48,7 +48,7 @@
 <div class="container">
 
     <header class="masthead" xmlns="http://www.w3.org/1999/xhtml">
-    <h3 class="text-muted">GUApp - Concorsi Pubblici</h3>
+    <h3 class="text-muted">Concorsi Pubblici</h3>
 
     <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,11 +62,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/concorsi">Concorsi</a>
                 </li>
-                <!--
-                <li class="nav-item">
-                    <a class="nav-link" href="/enti">Enti</a>
-                </li>
-                -->
 
                 <form class="form-inline my-2 my-lg-0" action="/search" method="get">
                     <input class="form-control mr-sm-2" type="text" name="q" placeholder="Cerca..." />
@@ -85,7 +80,6 @@
             <p class="lead">Cerca fra tantissimi concorsi pubblici in tutta Italia!</p>
             <form action="/search" method="get">
                 <div class="form-group">
-                    <!-- <label th:if="${search_error}" class="form-control-label" for="searchInput">Attenzione</label> -->
                     <div class="input-group">
                         <input id="searchInput" type="text" aria-describedby="searchHelp" class="form-control" name="q" placeholder="Cerca..." />
                         <span class="input-group-btn">
@@ -93,15 +87,9 @@
                         </span>
                     </div><!-- /input-group -->
                     <small id="searchHelp" class="form-text text-muted">Inserisci parole chiave per la ricerca fra enti e bandi di concorso.</small>
-                    
                 </div>
             </form>
         </div>
-
-        <div class="row">
-            <div class="fb-like mx-auto" data-href="https://www.facebook.com/gazzettaufficialeapp" data-layout="standard" data-action="recommend" data-size="large" data-show-faces="true" data-share="true"></div>
-        </div>
-
     </main>
 
     <!-- Site footer -->
